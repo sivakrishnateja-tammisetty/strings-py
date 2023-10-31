@@ -1,0 +1,15 @@
+STRING:It is a sequence of characters enclosed with single or double quotes
+
+
+
+#print('Python's world')  #error
+
+#METHOD 1 ====> print("Python's world")   o/p: Python's world
+
+#METHOD 2 ====> print('Python\'s world')  o/p:Python's world
+#METHOD 3: ====> print("python\'s" ' world') python's world
+
+
+
+
+print('python\'s "world"')  o/p: python's "world"
