@@ -1,6 +1,4 @@
-STRING:It is a sequence of characters enclosed with single or double quotes
-
-
+STRING:It is a sequence of characters enclosed with single or double quotes.
 
 #print('Python's world')  #error
 
@@ -9,7 +7,22 @@ STRING:It is a sequence of characters enclosed with single or double quotes
 #METHOD 2 ====> print('Python\'s world')  o/p:Python's world
 #METHOD 3: ====> print("python\'s" ' world') python's world
 
-
-
-
 print('python\'s "world"')  o/p: python's "world"
+
+
+--------------------------------------------------------------------------------------
+
+STRING OPERATIONS:
+  .string concatenation ===> adding two strings(it can add only two strings not integers)
+  .string repitition ====> repeating string into given no.of times (1 parameter should be string & other parameter should be integer)
+
+
+
+
+print("Hello" + "World"+"Siva")//concatenation
+
+print("Iam a polite person "*3)//repitition
+print(("Iam " +"a "+ "polite "+ "person")*3)
+print(("Iam " +"a "+ "polite "+ "person\n")*3)
+
+
